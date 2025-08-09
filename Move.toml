@@ -1,0 +1,16 @@
+[package]
+name = "InsurancePoolContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+addr="88896b2d947ebfd772c924067b7d4aa9f86ba96a97af61e0c46bff921f24ab18"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
